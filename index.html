@@ -129,9 +129,14 @@
             <div class="flex items-center gap-3">
                 <div class="bg-blue-900 text-white p-2 rounded font-black text-2xl leading-none">JS</div>
                 <div class="flex flex-col">
-                    <span class="font-bold text-lg text-blue-900 leading-tight">GAS SERVICES</span>
-                    <span class="text-[10px] uppercase tracking-widest font-bold text-red-600">Professional
-                        Engineering</span>
+                    <span class="font-bold text-lg text-blue-900 leading-tight">
+                        <span class="english">GAS SERVICES</span>
+                        <span class="malayalam">ഗ്യാസ് സർവീസുകൾ</span>
+                    </span>
+                    <span class="text-[10px] uppercase tracking-widest font-bold text-red-600">
+                        <span class="english">Professional Engineering</span>
+                        <span class="malayalam">പ്രൊഫഷണൽ എൻജിനീയറിംഗ്</span>
+                    </span>
                 </div>
             </div>
 
@@ -139,7 +144,7 @@
                 <button onclick="toggleLanguage()"
                     class="bg-slate-200 hover:bg-slate-300 px-4 py-1.5 rounded text-xs font-bold transition-all">
                     <span class="english">മലയാളം</span>
-                    <span class="malayalam">ENGLISH</span>
+                    <span class="malayalam">English</span>
                 </button>
                 <div class="hidden lg:flex gap-4">
                     <a href="tel:+919496750805"
@@ -154,13 +159,17 @@
     </nav>
 
     <!-- Hero Section -->
-    <section class="relative bg-slate-50 py-20 px-6 overflow-hidden">
-        <div class="max-w-7xl mx-auto grid lg:grid-cols-2 gap-12 items-center">
+    <section
+        class="relative bg-slate-50 pt-32 pb-20 md:py-20 px-6 overflow-hidden md:bg-none bg-[url('https://images.pexels.com/photos/266896/pexels-photo-266896.jpeg?auto=compress&cs=tinysrgb&w=800')] bg-cover bg-center">
+        <div class="absolute inset-0 bg-white/80 md:hidden z-0"></div>
+        <div class="max-w-7xl mx-auto grid lg:grid-cols-2 gap-12 items-center relative z-10">
             <div>
-                <h1 class="hero-text text-4xl md:text-6xl font-extrabold text-slate-900 mb-6 leading-tight">
+                <h1
+                    class="hero-text text-4xl md:text-6xl font-extrabold text-slate-900 mb-6 leading-tight relative z-10">
                     <span class="english text-blue-900">Professional Gas Stove & Pipeline Solutions.</span>
-                    <span class="malayalam text-blue-900 leading-normal">ഗ്യാസ് സ്റ്റൗ, പൈപ്പ് ലൈൻ സർവീസുകൾ ഏറ്റവും
-                        ഉത്തരവാദിത്തത്തോടെ.</span>
+                    <span class="malayalam text-blue-900 leading-snug pt-2 text-3xl md:text-5xl">
+                        ഗ്യാസ് സ്റ്റൗ, പൈപ്പ് ലൈൻ സർവീസുകൾ <br class="hidden md:inline"> ഏറ്റവും ഉത്തരവാദിത്തത്തോടെ.
+                    </span>
                 </h1>
                 <p class="text-slate-600 text-lg mb-10 max-w-lg">
                     <span class="english">We specialize in safe installation, precision repair, and periodic maintenance
@@ -169,7 +178,7 @@
                         ഇൻസ്റ്റാളേഷനും റിപ്പയറിംഗും ഞങ്ങൾ നൽകുന്നു.</span>
                 </p>
 
-                <div class="flex flex-col sm:flex-row gap-4">
+                <div class="flex flex-col sm:flex-row gap-4 mt-4 md:mt-0">
                     <a href="tel:+919496750805"
                         class="bg-blue-900 text-white px-8 py-4 rounded font-bold text-lg shadow-xl hover:bg-blue-800 transition-all text-center flex items-center justify-center gap-3">
                         <i class="fa-solid fa-headset"></i>
@@ -187,12 +196,13 @@
                 <div class="mt-12 flex items-center gap-4 text-sm text-slate-500 font-medium">
                     <i class="fa-solid fa-shield-check text-green-600 text-xl"></i>
                     <span class="english">Certified Work & Genuine Spare Parts</span>
-                    <span class="malayalam">അംഗീകൃത സേവനവും ഗുണമേന്മയുള്ള സ്പെയർ പാർട്സുകളും</span>
+                    <span class="malayalam">കൃത്യമായ ജോലി & ഒറിജിനൽ സ്പെയർ പാർട്സുകൾ</span>
                 </div>
             </div>
-            <div class="relative hidden lg:block">
-                <img src="https://images.unsplash.com/photo-1590756254933-2873d72a83b6?q=80&w=2070&auto=format&fit=crop"
-                    alt="Gas Technician" class="rounded-lg shadow-2xl border-8 border-white">
+            <div class="relative hidden lg:block w-full h-full flex items-center justify-center">
+                <img src="https://images.pexels.com/photos/266896/pexels-photo-266896.jpeg?auto=compress&cs=tinysrgb&w=800"
+                    alt="Professional Gas Stove Service"
+                    class="rounded-lg shadow-2xl border-8 border-white object-cover h-[500px] w-full relative z-0">
                 <div class="absolute -bottom-6 -left-6 bg-white p-6 shadow-xl rounded-lg border-l-4 border-red-600">
                     <p class="text-3xl font-black text-blue-900">10+</p>
                     <p class="text-xs font-bold text-slate-500 uppercase tracking-tighter">Years in Kerala</p>
@@ -204,17 +214,19 @@
     <!-- Locations SEO Bar -->
     <div class="bg-white py-8 border-y">
         <div class="max-w-7xl mx-auto px-6">
-            <p class="text-center font-bold text-slate-400 uppercase tracking-[0.2em] text-xs mb-6">Regional Service
-                Centers</p>
+            <p class="text-center font-bold text-slate-400 text-xs mb-6">
+                <span class="english uppercase tracking-[0.2em]">Regional Service Centers</span>
+                <span class="malayalam text-base font-normal tracking-normal">പ്രാദേശിക സേവന കേന്ദ്രങ്ങൾ</span>
+            </p>
             <div class="flex flex-wrap justify-center gap-4 location-grid">
-                <span>Thiruvananthapuram</span>
-                <span>Ernakulam</span>
-                <span>Kollam</span>
-                <span>Kochi</span>
-                <span>Kazhakkoottam</span>
-                <span>Aluva</span>
-                <span>Tripunithura</span>
-                <span>Chathannoor</span>
+                <span><span class="english">Thiruvananthapuram</span><span class="malayalam">തിരുവനന്തപുരം</span></span>
+                <span><span class="english">Ernakulam</span><span class="malayalam">എറണാകുളം</span></span>
+                <span><span class="english">Kollam</span><span class="malayalam">കൊല്ലം</span></span>
+                <span><span class="english">Kochi</span><span class="malayalam">കൊച്ചി</span></span>
+                <span><span class="english">Kazhakkoottam</span><span class="malayalam">കഴക്കൂട്ടം</span></span>
+                <span><span class="english">Aluva</span><span class="malayalam">ആലുവ</span></span>
+                <span><span class="english">Tripunithura</span><span class="malayalam">തൃപ്പൂണിത്തുറ</span></span>
+                <span><span class="english">Chathannoor</span><span class="malayalam">ചാത്തന്നൂർ</span></span>
             </div>
         </div>
     </div>
@@ -253,7 +265,10 @@
                             class="english">Auto-ignition repair</span><span class="malayalam">ഓട്ടോ ഇഗ്നിഷൻ
                             റിപ്പയർ</span></li>
                 </ul>
-                <div class="text-xs font-bold text-slate-400">BRANDS: Preethi, Pigeon, Butterfly, etc.</div>
+                <div class="text-xs font-bold text-slate-400">
+                    <span class="english">BRANDS: Preethi, Pigeon, Butterfly, etc.</span>
+                    <span class="malayalam">ബ്രാൻഡുകൾ: പ്രീതി, പിജിയൺ, ബട്ടർഫ്ലൈ, തുടങ്ങിയവ.</span>
+                </div>
             </div>
 
             <!-- 2 -->
@@ -274,7 +289,10 @@
                             class="english">Industrial grade regulators</span><span class="malayalam">ഇൻഡസ്ട്രിയൽ
                             റെഗുലേറ്ററുകൾ</span></li>
                 </ul>
-                <div class="text-xs font-bold text-blue-900/40 uppercase">Safe & Certified Installation</div>
+                <div class="text-xs font-bold text-blue-900/40 uppercase">
+                    <span class="english">Safe & Certified Installation</span>
+                    <span class="malayalam">സുരക്ഷിതവും അംഗീകൃതവുമായ ഇൻസ്റ്റാളേഷൻ</span>
+                </div>
             </div>
 
             <!-- 3 -->
@@ -292,10 +310,13 @@
                             class="english">Hotel pipeline maintenance</span><span class="malayalam">ഹോട്ടൽ പൈപ്പ് ലൈൻ
                             മെയിന്റനൻസ്</span></li>
                     <li class="flex items-center gap-2"><i class="fa-solid fa-check text-green-600"></i> <span
-                            class="english">Annual Maintenance Contracts (AMC)</span><span class="malayalam">AMC
-                            കോൺട്രാക്ടുകൾ</span></li>
+                            class="english">Annual Maintenance Contracts</span><span class="malayalam">വാർഷിക
+                            മെയിന്റനൻസ് കരാറുകൾ</span></li>
                 </ul>
-                <div class="text-xs font-bold text-slate-400">FOR: Hotels, Canteens, Hospitals</div>
+                <div class="text-xs font-bold text-slate-400">
+                    <span class="english">FOR: Hotels, Canteens, Hospitals</span>
+                    <span class="malayalam">ഹോട്ടലുകൾ, കാന്റീനുകൾ, ആശുപത്രികൾ എന്നിവയ്ക്ക്</span>
+                </div>
             </div>
         </div>
     </section>
@@ -310,23 +331,49 @@
             <div class="grid md:grid-cols-4 gap-8">
                 <div class="flex flex-col items-center text-center">
                     <div class="step-number mb-6">1</div>
-                    <h4 class="font-bold mb-2">Booking</h4>
-                    <p class="text-slate-400 text-sm">Call or WhatsApp us with your location and issue.</p>
+                    <h4 class="font-bold mb-2">
+                        <span class="english">Booking</span>
+                        <span class="malayalam">ബുക്കിംഗ്</span>
+                    </h4>
+                    <p class="text-slate-400 text-sm">
+                        <span class="english">Call or WhatsApp us with your location and issue.</span>
+                        <span class="malayalam">നിങ്ങളുടെ സ്ഥലവും പ്രശ്നവും അറിയിക്കാൻ വിളിക്കുകയോ വാട്ട്സ്ആപ്പ്
+                            ചെയ്യുകയോ ചെയ്യുക.</span>
+                    </p>
                 </div>
                 <div class="flex flex-col items-center text-center">
                     <div class="step-number mb-6">2</div>
-                    <h4 class="font-bold mb-2">Diagnosis</h4>
-                    <p class="text-slate-400 text-sm">Technician visits and provides a transparent quote.</p>
+                    <h4 class="font-bold mb-2">
+                        <span class="english">Diagnosis</span>
+                        <span class="malayalam">പരിശോധന</span>
+                    </h4>
+                    <p class="text-slate-400 text-sm">
+                        <span class="english">Technician visits and provides a transparent quote.</span>
+                        <span class="malayalam">ടെക്നീഷ്യൻ നേരിട്ടെത്തി പരിശോധിച്ചു നിരക്ക് അറിയിക്കുന്നു.</span>
+                    </p>
                 </div>
                 <div class="flex flex-col items-center text-center">
                     <div class="step-number mb-6">3</div>
-                    <h4 class="font-bold mb-2">Repair</h4>
-                    <p class="text-slate-400 text-sm">On-site repair using genuine certified spare parts.</p>
+                    <h4 class="font-bold mb-2">
+                        <span class="english">Repair</span>
+                        <span class="malayalam">റിപ്പയർ</span>
+                    </h4>
+                    <p class="text-slate-400 text-sm">
+                        <span class="english">On-site repair using genuine certified spare parts.</span>
+                        <span class="malayalam">ഒറിജിനൽ സ്പെയർ പാർട്സുകൾ ഉപയോഗിച്ച് വീട്ടിൽ വെച്ച് തന്നെ റിപ്പയർ
+                            ചെയ്യുന്നു.</span>
+                    </p>
                 </div>
                 <div class="flex flex-col items-center text-center">
                     <div class="step-number mb-6">4</div>
-                    <h4 class="font-bold mb-2">Safety Check</h4>
-                    <p class="text-slate-400 text-sm">Post-service leak testing and safety certification.</p>
+                    <h4 class="font-bold mb-2">
+                        <span class="english">Safety Check</span>
+                        <span class="malayalam">സുരക്ഷാ പരിശോധന</span>
+                    </h4>
+                    <p class="text-slate-400 text-sm">
+                        <span class="english">Post-service leak testing and safety certification.</span>
+                        <span class="malayalam">സർവീസിന് ശേഷം ചോർച്ച പരിശോധനയും സുരക്ഷ ഉറപ്പാക്കലും.</span>
+                    </p>
                 </div>
             </div>
         </div>
@@ -344,37 +391,64 @@
                     <div class="flex gap-4">
                         <div
                             class="w-12 h-12 rounded bg-blue-100 flex items-center justify-center text-blue-900 shrink-0">
-                            <i class="fa-solid fa-clock-rotate-left"></i></div>
+                            <i class="fa-solid fa-clock-rotate-left"></i>
+                        </div>
                         <div>
-                            <h4 class="font-bold">Same Day Service</h4>
-                            <p class="text-slate-500 text-sm">We understand kitchen emergencies. Technicians available
-                                within 4 hours.</p>
+                            <h4 class="font-bold">
+                                <span class="english">Same Day Service</span>
+                                <span class="malayalam">അതെ ദിവസം സേവനം</span>
+                            </h4>
+                            <p class="text-slate-500 text-sm">
+                                <span class="english">We understand kitchen emergencies. Technicians available within 4
+                                    hours.</span>
+                                <span class="malayalam">അടുക്കളയിലെ അടിയന്തിര സാഹചര്യങ്ങൾ ഞങ്ങൾ മനസ്സിലാക്കുന്നു. 4
+                                    മണിക്കൂറിനുള്ളിൽ ടെക്നീഷ്യൻ ലഭ്യമാണ്.</span>
+                            </p>
                         </div>
                     </div>
                     <div class="flex gap-4">
                         <div
                             class="w-12 h-12 rounded bg-blue-100 flex items-center justify-center text-blue-900 shrink-0">
-                            <i class="fa-solid fa-microchip"></i></div>
+                            <i class="fa-solid fa-microchip"></i>
+                        </div>
                         <div>
-                            <h4 class="font-bold">All Brands Expertise</h4>
-                            <p class="text-slate-500 text-sm">Skilled in Preethi, Butterfly, Pigeon, Prestige, Glen,
-                                Faber, and International models.</p>
+                            <h4 class="font-bold">
+                                <span class="english">All Brands Expertise</span>
+                                <span class="malayalam">എല്ലാ ബ്രാൻഡുകളിലും വൈദഗ്ധ്യം</span>
+                            </h4>
+                            <p class="text-slate-500 text-sm">
+                                <span class="english">Skilled in Preethi, Butterfly, Pigeon, Prestige, Glen, Faber, and
+                                    International models.</span>
+                                <span class="malayalam">പ്രീതി, ബട്ടർഫ്ലൈ, പിജിയൺ, പ്രസ്റ്റീജ്, ഗ്ലെൻ, ഫേബർ തുടങ്ങിയ
+                                    എല്ലാ അന്താരാഷ്ട്ര മോഡലുകളിലും വിദഗ്ധർ.</span>
+                            </p>
                         </div>
                     </div>
                     <div class="flex gap-4">
                         <div
                             class="w-12 h-12 rounded bg-blue-100 flex items-center justify-center text-blue-900 shrink-0">
-                            <i class="fa-solid fa-file-invoice-dollar"></i></div>
+                            <i class="fa-solid fa-file-invoice-dollar"></i>
+                        </div>
                         <div>
-                            <h4 class="font-bold">Fixed Pricing</h4>
-                            <p class="text-slate-500 text-sm">Transparent rates for inspection and spare parts. No
-                                hidden overheads.</p>
+                            <h4 class="font-bold">
+                                <span class="english">Fixed Pricing</span>
+                                <span class="malayalam">മിതമായ നിരക്കുകൾ</span>
+                            </h4>
+                            <p class="text-slate-500 text-sm">
+                                <span class="english">Transparent rates for inspection and spare parts. No hidden
+                                    overheads.</span>
+                                <span class="malayalam">പരിശോധനയ്ക്കും സ്പെയർ പാർട്സുകൾക്കും സുതാര്യമായ നിരക്കുകൾ.
+                                    ഒളിഞ്ഞിരിക്കുന്ന ചാർജുകൾ ഇല്ല.</span>
+                            </p>
                         </div>
                     </div>
                 </div>
             </div>
             <div class="bg-slate-100 p-10 rounded-2xl">
-                <h3 class="text-xl font-bold mb-6 text-blue-900">Common Issues We Fix:</h3>
+                <h3 class="text-xl font-bold mb-6 text-blue-900">
+                    <span class="english">Common Issues We Fix:</span>
+                    <span class="malayalam">ഞങ്ങൾ പരിഹരിക്കുന്ന സാധാരണ പ്രശ്നങ്ങൾ:</span>
+                </h3>
                 <ul class="space-y-4">
                     <li class="flex items-center gap-3 text-slate-700 bg-white p-3 rounded shadow-sm">
                         <i class="fa-solid fa-circle-exclamation text-red-600"></i>
@@ -410,19 +484,39 @@
             </h2>
             <div class="space-y-4">
                 <details class="bg-white p-6 rounded-lg border cursor-pointer hover:border-blue-900 transition-all">
-                    <summary class="font-bold">Do you charge for a site visit?</summary>
-                    <p class="mt-4 text-slate-600 text-sm">We charge a nominal inspection fee which is adjusted in the
-                        final bill if you proceed with the service.</p>
+                    <summary class="font-bold">
+                        <span class="english">Do you charge for a site visit?</span>
+                        <span class="malayalam">സൈറ്റ് സന്ദർശിക്കാൻ ചാർജ് ഈടാക്കാറുണ്ടോ?</span>
+                    </summary>
+                    <p class="mt-4 text-slate-600 text-sm">
+                        <span class="english">We charge a nominal inspection fee which is adjusted in the final bill if
+                            you proceed with the service.</span>
+                        <span class="malayalam">ഞങ്ങൾ മിതമായ ഒരു പരിശോധന ഫീസ് ഈടാക്കുന്നു, നിങ്ങൾ സർവീസ് തുടരുകയാണെങ്കിൽ
+                            ഇത് അന്തിമ ബില്ലിൽ കുറയ്ക്കുന്നതാണ്.</span>
+                    </p>
                 </details>
                 <details class="bg-white p-6 rounded-lg border cursor-pointer hover:border-blue-900 transition-all">
-                    <summary class="font-bold">How long does a pipeline installation take?</summary>
-                    <p class="mt-4 text-slate-600 text-sm">Residential pipeline work usually takes 4-6 hours depending
-                        on the complexity and material required.</p>
+                    <summary class="font-bold">
+                        <span class="english">How long does a pipeline installation take?</span>
+                        <span class="malayalam">പൈപ്പ് ലൈൻ ഇൻസ്റ്റാളേഷൻ എത്ര സമയം എടുക്കും?</span>
+                    </summary>
+                    <p class="mt-4 text-slate-600 text-sm">
+                        <span class="english">Residential pipeline work usually takes 4-6 hours depending on the
+                            complexity and material required.</span>
+                        <span class="malayalam">വീടുകളിലെ പൈപ്പ് ലൈൻ ജോലികൾക്ക് സാധാരണയായി 4-6 മണിക്കൂർ എടുക്കും.</span>
+                    </p>
                 </details>
                 <details class="bg-white p-6 rounded-lg border cursor-pointer hover:border-blue-900 transition-all">
-                    <summary class="font-bold">Do you provide a warranty on repairs?</summary>
-                    <p class="mt-4 text-slate-600 text-sm">Yes, we offer a 3-month service warranty on all domestic
-                        stove repairs and a 12-month warranty on pipeline leaks.</p>
+                    <summary class="font-bold">
+                        <span class="english">Do you provide a warranty on repairs?</span>
+                        <span class="malayalam">റിപ്പയറിംഗിന് വാറന്റി നൽകുന്നുണ്ടോ?</span>
+                    </summary>
+                    <p class="mt-4 text-slate-600 text-sm">
+                        <span class="english">Yes, we offer a 3-month service warranty on all domestic stove repairs and
+                            a 12-month warranty on pipeline leaks.</span>
+                        <span class="malayalam">അതെ, ഗാർഹിക സ്റ്റൗ റിപ്പയറിംഗിന് 3 മാസത്തെയും പൈപ്പ് ലൈൻ ചോർച്ചയ്ക്ക് 12
+                            മാസത്തെയും വാറന്റി ഞങ്ങൾ നൽകുന്നു.</span>
+                    </p>
                 </details>
             </div>
         </div>
@@ -435,12 +529,16 @@
                 <span class="english">Safe Kitchen, Happy Home.</span>
                 <span class="malayalam">സുരക്ഷിതമായ അടുക്കള, സന്തോഷമുള്ള വീട്.</span>
             </h2>
-            <p class="mb-10 text-slate-500">Available across Thiruvananthapuram, Ernakulam, and Kollam.</p>
+            <p class="mb-10 text-slate-500">
+                <span class="english">Available across Thiruvananthapuram, Ernakulam, and Kollam.</span>
+                <span class="malayalam">തിരുവനന്തപുരം, എറണാകുളം, കൊല്ലം എന്നിവിടങ്ങളിൽ ലഭ്യമാണ്.</span>
+            </p>
             <div class="flex flex-col sm:flex-row gap-4 justify-center">
                 <a href="tel:+919496750805"
                     class="bg-red-600 text-white px-10 py-5 rounded-lg font-bold text-xl shadow-lg hover:bg-red-700 transition-all flex items-center justify-center gap-3">
                     <i class="fa-solid fa-phone"></i>
-                    <span>Call +91 9496750805</span>
+                    <span class="english">Call +91 9496750805</span>
+                    <span class="malayalam">വിളിക്കുക +91 9496750805</span>
                 </a>
             </div>
         </div>
@@ -452,25 +550,42 @@
             <div>
                 <div class="flex items-center gap-3 mb-6">
                     <div class="bg-white text-blue-950 p-2 rounded font-black text-xl">JS</div>
-                    <span class="font-bold text-lg">GAS SERVICES</span>
+                    <span class="font-bold text-lg">
+                        <span class="english">GAS SERVICES</span>
+                        <span class="malayalam">ഗ്യാസ് സർവീസുകൾ</span>
+                    </span>
                 </div>
                 <p class="text-slate-400 text-sm leading-relaxed">
-                    Reliable engineering solutions for domestic and industrial gas systems. Serving the heart of Kerala
-                    with safety and expertise.
+                    <span class="english">Reliable engineering solutions for domestic and industrial gas systems.
+                        Serving the heart of Kerala with safety and expertise.</span>
+                    <span class="malayalam">ഗാർഹിക, വ്യവസായ ഗ്യാസ് സംവിധാനങ്ങൾക്കായുള്ള വിശ്വസ്തമായ എൻജിനീയറിംഗ്
+                        സേവനങ്ങൾ. സുരക്ഷയോടും വൈദഗ്ധ്യത്തോടും കൂടി കേരളത്തിലുടനീളം സേവനം.</span>
                 </p>
             </div>
             <div>
-                <h4 class="font-bold mb-6 text-red-500 uppercase tracking-widest text-sm">Service Hubs</h4>
+                <h4 class="font-bold mb-6 text-red-500 uppercase tracking-widest text-sm">
+                    <span class="english">Service Hubs</span>
+                    <span class="malayalam">സേവന കേന്ദ്രങ്ങൾ</span>
+                </h4>
                 <ul class="text-slate-400 text-sm space-y-3">
-                    <li>Thiruvananthapuram (Head Office)</li>
-                    <li>Ernakulam (Kochi Hub)</li>
-                    <li>Kollam City Center</li>
+                    <li><span class="english">Thiruvananthapuram (Head Office)</span><span
+                            class="malayalam">തിരുവനന്തപുരം (ഹെഡ് ഓഫീസ്)</span></li>
+                    <li><span class="english">Ernakulam (Kochi Hub)</span><span class="malayalam">എറണാകുളം (കൊച്ചി
+                            ഹബ്)</span></li>
+                    <li><span class="english">Kollam City Center</span><span class="malayalam">കൊല്ലം സിറ്റി
+                            സെന്റർ</span></li>
                 </ul>
             </div>
             <div>
-                <h4 class="font-bold mb-6 text-red-500 uppercase tracking-widest text-sm">Direct Contact</h4>
+                <h4 class="font-bold mb-6 text-red-500 uppercase tracking-widest text-sm">
+                    <span class="english">Direct Contact</span>
+                    <span class="malayalam">നേരിട്ട് ബന്ധപ്പെടുക</span>
+                </h4>
                 <p class="text-xl font-bold text-white mb-2">+91 9496750805</p>
-                <p class="text-slate-400 text-sm">Support: 8:00 AM - 9:00 PM</p>
+                <p class="text-slate-400 text-sm">
+                    <span class="english">Support: 8:00 AM - 9:00 PM</span>
+                    <span class="malayalam">സപ്പോർട്ട്: 8:00 AM - 9:00 PM</span>
+                </p>
                 <div class="flex gap-4 mt-6">
                     <a href="#" class="text-slate-400 hover:text-white text-xl"><i
                             class="fa-brands fa-facebook"></i></a>
@@ -480,7 +595,12 @@
             </div>
         </div>
         <div class="max-w-7xl mx-auto pt-8 border-t border-blue-900 text-center text-slate-500 text-xs">
-            <p>&copy; 2024 JS Gas Stove & Pipeline Services. All Rights Reserved. Kerala, India.</p>
+            <p>
+                <span class="english">&copy; 2024 JS Gas Stove & Pipeline Services. All Rights Reserved. Kerala,
+                    India.</span>
+                <span class="malayalam">&copy; 2024 ജെഎസ് ഗ്യാസ് സ്റ്റൗ & പൈപ്പ് ലൈൻ സർവീസുകൾ. എല്ലാ അവകാശങ്ങളും
+                    നിക്ഷിപ്തം. കേരളം, ഇന്ത്യ.</span>
+            </p>
         </div>
     </footer>
 
