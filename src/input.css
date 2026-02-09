@@ -1,0 +1,77 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom Styles */
+.malayalam {
+    font-family: 'Manjari', sans-serif;
+    display: none;
+}
+
+.lang-ml .english {
+    display: none;
+}
+
+.lang-ml .malayalam {
+    display: block;
+}
+
+.nav-shadow {
+    box-shadow: 0 2px 15px rgba(0, 0, 0, 0.05);
+}
+
+.section-heading {
+    position: relative;
+    padding-bottom: 15px;
+    margin-bottom: 30px;
+}
+
+.section-heading::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 60px;
+    height: 4px;
+    background: #dc2626; /* var(--secondary) */
+}
+
+.service-box {
+    border: 1px solid #e2e8f0;
+    transition: all 0.3s ease;
+}
+
+.service-box:hover {
+    border-color: #1e3a8a; /* var(--primary) */
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.05);
+    transform: translateY(-5px);
+}
+
+.location-grid span {
+    background: #f1f5f9;
+    padding: 8px 20px;
+    border-radius: 4px;
+    font-weight: 600;
+    font-size: 0.9rem;
+    color: #1e3a8a; /* var(--primary) */
+}
+
+.step-number {
+    width: 40px;
+    height: 40px;
+    background: #dc2626; /* var(--secondary) */
+    color: white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    flex-shrink: 0;
+}
+
+/* Mobile Adjustments */
+@media (max-width: 768px) {
+    .hero-text {
+        font-size: 2.5rem;
+    }
+}

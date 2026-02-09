@@ -90,109 +90,12 @@
         href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=Manjari:wght@400;700&display=swap"
         rel="stylesheet">
 
-    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="styles.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
         media="print" onload="this.media='all'">
     <noscript>
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     </noscript>
-    <style>
-        :root {
-            --primary: #1e3a8a;
-            /* Deep Navy */
-            --secondary: #dc2626;
-            /* Professional Red */
-            --accent: #2563eb;
-            /* Action Blue */
-            --light: #f8fafc;
-            --dark: #0f172a;
-        }
-
-        body {
-            font-family: 'Inter', sans-serif;
-            background-color: #ffffff;
-            color: var(--dark);
-            line-height: 1.6;
-        }
-
-        .malayalam {
-            font-family: 'Manjari', sans-serif;
-            display: none;
-        }
-
-        .lang-ml .english {
-            display: none;
-        }
-
-        .lang-ml .malayalam {
-            display: block;
-        }
-
-        .nav-shadow {
-            box-shadow: 0 2px 15px rgba(0, 0, 0, 0.05);
-        }
-
-        .section-heading {
-            position: relative;
-            padding-bottom: 15px;
-            margin-bottom: 30px;
-        }
-
-        .section-heading::after {
-            content: '';
-            position: absolute;
-            bottom: 0;
-            left: 0;
-            width: 60px;
-            height: 4px;
-            background: var(--secondary);
-        }
-
-        .service-box {
-            border: 1px solid #e2e8f0;
-            transition: all 0.3s ease;
-        }
-
-        .service-box:hover {
-            border-color: var(--primary);
-            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.05);
-            transform: translateY(-5px);
-        }
-
-        .stat-card {
-            background: var(--primary);
-            color: white;
-        }
-
-        .location-grid span {
-            background: #f1f5f9;
-            padding: 8px 20px;
-            border-radius: 4px;
-            font-weight: 600;
-            font-size: 0.9rem;
-            color: var(--primary);
-        }
-
-        .step-number {
-            width: 40px;
-            height: 40px;
-            background: var(--secondary);
-            color: white;
-            border-radius: 50%;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            font-weight: bold;
-            flex-shrink: 0;
-        }
-
-        /* Mobile Adjustments */
-        @media (max-width: 768px) {
-            .hero-text {
-                font-size: 2.5rem;
-            }
-        }
-    </style>
 </head>
 
 <body class="lang-en">
